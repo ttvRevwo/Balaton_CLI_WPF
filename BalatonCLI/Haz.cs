@@ -22,5 +22,13 @@ namespace BalatonCLI
         public string Hazszam { get; set; }
         public string Adosav { get; set; }
         public int Terulet { get; set; }
+
+        public void SetAdosav(string ujAdosav)
+        {
+            if (Environment.UserName == "User")
+            {
+                Adosav = ujAdosav;
+            }
+        }
     }
 }
