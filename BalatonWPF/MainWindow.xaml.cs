@@ -24,7 +24,10 @@ namespace BalatonWPF
         {
             InitializeComponent();
             Feladat1();
-            dtgAdatok.ItemsSource = hazak;  
+            dtgAdatok.ItemsSource = hazak;
+            cbxValaszt.Items.Add("A");
+            cbxValaszt.Items.Add("B");
+            cbxValaszt.Items.Add("C");
         }
 
         public static void Feladat1()
